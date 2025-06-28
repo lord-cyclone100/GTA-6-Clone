@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: Gta1;
+  src: url("../public/fonts/font1.woff") format("woff");
+}
+
+@theme {
+  --font-gta1: Gta1, "sans-serif";
+  /* --font-game2: Gta2, "sans-serif"; */
+}

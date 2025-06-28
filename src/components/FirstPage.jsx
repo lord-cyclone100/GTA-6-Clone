@@ -45,6 +45,18 @@ export const FirstPage = () =>{
       backgroundColor:"black",
       duration:0
     },8.5)
+    .to("#brand-logo",{
+      scale:0.1,
+      duration:2,
+      top:'-56vh'
+    },9.5)
+    .fromTo('#parent-text',{
+      y:20
+    },{
+      y:0,
+      opacity:1,
+      duration:2
+    })
   },[])
  
   return(
@@ -62,6 +74,18 @@ export const FirstPage = () =>{
         <div id="masked-logo" className="absolute h-[inherit] w-[inherit] flex justify-center z-6 scale-9000"> 
           <img src="./images/brand-logo2.png" alt="" id="brand-logo" className="absolute z-5 scale-30 top-[-29vh] left-[-3vh] opacity-0" />
           <img src="./images/logo6.svg" alt="" id="brand-background" className="absolute z-4" />
+          
+          <div id="parent-text" className="font-gta1 text-8xl font-black absolute top-60 opacity-0 flex flex-col items-center gap-8">
+            <div id="" className="flex items-center justify-center flex-col bg-gradient-to-r from-[#ef8469] via-[#f4be7a] to-[#ef8469] bg-clip-text text-transparent">
+              <h1 className="">COMING</h1>
+              <h1 className=""> MAY 26</h1>
+              <h1 className="">2026</h1>
+            </div>
+            <div className="flex gap-4">
+              <img src="./images/ps5logo.png" alt="" className="h-6" />
+              <img src="./images/xboxlogo.svg" alt="" className="h-6"  />
+            </div>
+          </div>
         </div>
       </div>
     </>
