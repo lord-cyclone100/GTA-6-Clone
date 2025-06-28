@@ -1,15 +1,12 @@
 export const SecondPage = () => {
   return(
     <>
-      <div id="parent-container" className=" h-dvh w-full bg-emerald-400 flex items-center justify-center flex-col font-gta1 text-8xl font-black">
-        <div id="" className="flex items-center justify-center flex-col bg-gradient-to-r from-[#ef8469] via-[#f4be7a] to-[#ef8469] bg-clip-text text-transparent">
-          <h1 className="">COMING</h1>
-          <h1 className=""> MAY 26</h1>
-          <h1 className="">2026</h1>
-        </div>
-        <div className="flex gap-4">
-          <img src="./images/ps5logo.png" alt="" className="h-[8%]" />
-          <img src="./images/xboxlogo.svg" alt="" className="h-[8%]"  />
+      <div id="parent-container" className=" h-dvh w-full bg-emerald-400 flex justify-center flex-col gap-10">
+        <div className="flex justify-center flex-col gap-10 mx-50 bg-gradient-to-r from-[#b33467] via-[#f1576a] to-[#f78474] bg-clip-text text-transparent">
+          <h1 className="font-gta2 text-6xl font-bold">Vice City, USA.</h1>
+          <p className="font-gta2 text-4xl">
+            Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the state of Leonida — forced to rely on each other more than ever if they want to make it out alive.
+          </p>
         </div>
       </div>
     </>

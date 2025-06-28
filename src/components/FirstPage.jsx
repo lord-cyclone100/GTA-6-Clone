@@ -30,33 +30,48 @@ export const FirstPage = () =>{
       duration:5
     },3.5).to('#masked-logo',{
       scale:1,
-      duration:5,
+      duration:10,
       opacity:1
     },3.5)
     .to('#brand-background',{
       opacity:0,
-      duration:1
-    },8.5)
+      duration:1,
+      ease:'power3.inOut'
+    },13.5)
     .to("#brand-logo",{
       opacity:1,
       duration:1
-    },8.5)
+    },13.5)
     .to("#masked-logo",{
-      backgroundColor:"black",
-      duration:0
-    },8.5)
+      backgroundColor:"#16141f",
+      duration:0,
+    },13.5)
     .to("#brand-logo",{
       scale:0.1,
       duration:2,
-      top:'-56vh'
-    },9.5)
+      top:'-56vh',
+      ease:'circ'
+    },14.5)
     .fromTo('#parent-text',{
       y:20
     },{
       y:0,
       opacity:1,
       duration:2
-    })
+    },16.5)
+    .to('#brand-logo',{
+      opacity:0,
+      duration:5
+    },18.5)
+    .to('#parent-text',{
+      opacity:0,
+      duration:4.5
+    },18.5)
+    .to('#para-text',{
+      opacity:1,
+      scale:0.7,
+      duration:5
+    },23)
   },[])
  
   return(
@@ -71,7 +86,7 @@ export const FirstPage = () =>{
             <img src="./images/logo.webp" alt="" />
           </div>
         </div>
-        <div id="masked-logo" className="absolute h-[inherit] w-[inherit] flex justify-center z-6 scale-9000"> 
+        <div id="masked-logo" className="absolute h-[inherit] w-[inherit] flex justify-center z-6 scale-9000 "> 
           <img src="./images/brand-logo2.png" alt="" id="brand-logo" className="absolute z-5 scale-30 top-[-29vh] left-[-3vh] opacity-0" />
           <img src="./images/logo6.svg" alt="" id="brand-background" className="absolute z-4" />
           
@@ -85,6 +100,12 @@ export const FirstPage = () =>{
               <img src="./images/ps5logo.png" alt="" className="h-6" />
               <img src="./images/xboxlogo.svg" alt="" className="h-6"  />
             </div>
+          </div>
+          <div id="para-text" className="flex justify-center flex-col gap-10 mx-50 bg-gradient-to-r from-[#b33467] via-[#f1576a] to-[#f78474] bg-clip-text text-transparent opacity-0 z-7">
+            <h1 className="font-gta2 text-6xl font-bold">Vice City, USA.</h1>
+            <p className="font-gta2 text-4xl">
+              Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the state of Leonida — forced to rely on each other more than ever if they want to make it out alive.
+            </p>
           </div>
         </div>
       </div>

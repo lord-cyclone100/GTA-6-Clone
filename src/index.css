@@ -5,7 +5,19 @@
   src: url("../public/fonts/font1.woff") format("woff");
 }
 
+@font-face {
+  font-family: Gta2;
+  src: url("../public/fonts/font2.woff") format("woff");
+}
+
 @theme {
   --font-gta1: Gta1, "sans-serif";
-  /* --font-game2: Gta2, "sans-serif"; */
+  --font-gta2: Gta2, "sans-serif";
 }
+
+/* #masked-logo {
+  background: linear-gradient(45deg, 
+    rgba(17, 17, 23, var(--gradient-opacity, 0)), 
+    rgba(27, 24, 40, var(--gradient-opacity, 0))
+  );
+} */
