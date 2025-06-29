@@ -1,0 +1,10 @@
+body{
+  background: linear-gradient(to right, #111117, #16141f, #1b1828);
+}
+
+.clip-skew{
+  height: 115vh;
+  width: inherit;
+  /* background-color: aqua; */
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}

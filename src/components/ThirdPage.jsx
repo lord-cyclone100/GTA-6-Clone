@@ -39,6 +39,7 @@ export const ThirdPage = () =>{
     
     
     
+    
 
 
     const videoTl = gsap.timeline({
@@ -87,6 +88,11 @@ export const ThirdPage = () =>{
       duration:60,
       ease:'none'
     },40)
+
+videoTl.to('.lucia-pic',{
+      y:-30,
+      duration:2
+    })
 
 },[])
 
@@ -154,14 +160,14 @@ export const ThirdPage = () =>{
               </h1>
             </div>
             <div className="flex justify-between">
-              <div className="w-130 h-[120vh] bg-amber-300 ml-63 mt-[-4vh]">
-                <img src="./images/lucia-dance.jpg" className="object-cover w-full h-full object-[60%_center]" alt="" />
+              <div className="w-130 h-[120vh] ml-63 mt-[-4vh]">
+                <img src="./images/lucia-dance.jpg" className="object-cover w-full h-full object-[60%_center] lucia-pic" alt="" />
               </div>
-              <div className="size-170 bg-amber-200 mt-[-16vh]">
-                <img src="./images/lucia-gun.jpg"className="object-cover w-full h-full object-[0%_center]" alt="" />
+              <div className="size-170 mt-[-16vh]">
+                <img src="./images/lucia-gun.jpg"className="object-cover w-full h-full object-[0%_center] lucia-pic" alt="" />
               </div>
-              <div className="size-120 bg-amber-200 absolute top-[163vh] right-50">
-                <img src="./images/lucia-bike.jpg" className="object-cover w-full h-full object-[12%_center]" alt="" />
+              <div className="size-120 absolute top-[163vh] right-50">
+                <img src="./images/lucia-bike.jpg" className="object-cover w-full h-full object-[12%_center] lucia-pic" alt="" />
               </div>
             </div>
           </div>
