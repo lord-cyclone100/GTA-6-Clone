@@ -2,22 +2,26 @@
 
 @font-face {
   font-family: Gta1;
-  src: url("../public/fonts/font1.woff") format("woff");
+  src: url("./fonts/font1.woff") format("woff");
 }
 
 @font-face {
   font-family: Gta2;
-  src: url("../public/fonts/font2.woff") format("woff");
+  src: url("./fonts/font2.woff") format("woff");
+}
+
+@font-face {
+  font-family: Gta3;
+  src: url("./fonts/font3.woff") format("woff");
 }
 
 @theme {
   --font-gta1: Gta1, "sans-serif";
   --font-gta2: Gta2, "sans-serif";
+  --font-gta3: Gta3, "sans-serif";
 }
 
-/* #masked-logo {
-  background: linear-gradient(45deg, 
-    rgba(17, 17, 23, var(--gradient-opacity, 0)), 
-    rgba(27, 24, 40, var(--gradient-opacity, 0))
-  );
-} */
+::selection {
+  background: #ffb0c4;
+  color: #36364e;
+}

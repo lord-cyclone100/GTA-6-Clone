@@ -72,23 +72,33 @@ export const FirstPage = () =>{
       scale:0.7,
       duration:5
     },23)
+
+
+
+
+
+
+
+
+
+ 
   },[])
  
   return(
     <>
       <div id="parent-container" className="h-dvh w-full relative flex items-center justify-center overflow-hidden">
-        <div id="overlay" className="h-[inherit] w-[inherit] absolute bg-black z-3"></div>
+        <div id="overlay" className="h-[inherit] w-[inherit] absolute bg-black z-4"></div>
         <div id="hero-section" className="h-[inherit] w-[inherit] scale-130" >
-          <div id="hero-container" className="absolute z-1">
+          <div id="hero-container" className="absolute z-2">
             <img src="./images/background.webp" alt="" />
           </div>
-          <div id="logo-container" className="absolute z-2">
+          <div id="logo-container" className="absolute z-3">
             <img src="./images/logo.webp" alt="" />
           </div>
         </div>
-        <div id="masked-logo" className="absolute h-[inherit] w-[inherit] flex justify-center z-6 scale-9000 "> 
-          <img src="./images/brand-logo2.png" alt="" id="brand-logo" className="absolute z-5 scale-30 top-[-29vh] left-[-3vh] opacity-0" />
-          <img src="./images/logo6.svg" alt="" id="brand-background" className="absolute z-4" />
+        <div id="masked-logo" className="absolute h-[inherit] w-[inherit] flex justify-center z-7 scale-9000 "> 
+          <img src="./images/brand-logo2.png" alt="" id="brand-logo" className="absolute z-6 scale-30 top-[-29vh] left-[-3vh] opacity-0" />
+          <img src="./images/logo6.svg" alt="" id="brand-background" className="absolute z-5" />
           
           <div id="parent-text" className="font-gta1 text-8xl font-black absolute top-60 opacity-0 flex flex-col items-center gap-8">
             <div id="" className="flex items-center justify-center flex-col bg-gradient-to-r from-[#ef8469] via-[#f4be7a] to-[#ef8469] bg-clip-text text-transparent">
@@ -101,7 +111,7 @@ export const FirstPage = () =>{
               <img src="./images/xboxlogo.svg" alt="" className="h-6"  />
             </div>
           </div>
-          <div id="para-text" className="flex justify-center flex-col gap-10 mx-50 bg-gradient-to-r from-[#b33467] via-[#f1576a] to-[#f78474] bg-clip-text text-transparent opacity-0 z-7">
+          <div id="para-text" className="flex justify-center flex-col gap-10 mx-50 bg-gradient-to-r from-[#b33467] via-[#f1576a] to-[#f78474] bg-clip-text text-transparent opacity-0 z-8">
             <h1 className="font-gta2 text-6xl font-bold">Vice City, USA.</h1>
             <p className="font-gta2 text-4xl">
               Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the state of Leonida — forced to rely on each other more than ever if they want to make it out alive.
