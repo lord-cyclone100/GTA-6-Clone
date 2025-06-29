@@ -2,12 +2,12 @@ import { useEffect } from 'react'
 import './App.css'
 import Lenis from 'lenis'
 import { FirstPage } from './components/FirstPage';
-import { ScrollTrigger, ScrollSmoother } from 'gsap/all';
+import { ScrollTrigger, ScrollSmoother, CustomEase } from 'gsap/all';
 import gsap from 'gsap';
 import { SecondPage } from './components/SecondPage';
 import { ThirdPage } from './components/ThirdPage';
 
-gsap.registerPlugin(ScrollTrigger,ScrollSmoother);
+gsap.registerPlugin(ScrollTrigger,ScrollSmoother,CustomEase);
 
 export const App = () => {
   // useEffect(() => {
@@ -69,7 +69,7 @@ export const App = () => {
         <div id="smooth-content">
           <FirstPage/>
           <SecondPage/>
-          {/* <ThirdPage/> */}
+          <ThirdPage/>
         </div>
       </div>
     </>
