@@ -6,6 +6,7 @@ import { ScrollTrigger, ScrollSmoother, CustomEase } from 'gsap/all';
 import gsap from 'gsap';
 import { SecondPage } from './components/SecondPage';
 import { ThirdPage } from './components/ThirdPage';
+import { FourthPage } from './components/FourthPage';
 
 gsap.registerPlugin(ScrollTrigger,ScrollSmoother,CustomEase);
 
@@ -70,6 +71,7 @@ export const App = () => {
           <FirstPage/>
           <SecondPage/>
           <ThirdPage/>
+          <FourthPage/>
         </div>
       </div>
     </>

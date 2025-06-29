@@ -112,7 +112,7 @@ export const SecondPage = () => {
   },[])
   return(
     <>
-      <div id="second-page-container" className="w-full relative overflow-hidden h-screen">
+      <div id="second-page-container" className="w-full relative overflow-hidden min-h-screen">
         <div id="jason-hero" className="z-1 block max-w-[100%] h-auto absolute top-0">
           <img src="./images/jason1.webp" alt="" />
         </div>
