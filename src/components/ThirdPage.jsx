@@ -160,13 +160,13 @@ videoTl.to('.lucia-pic',{
               </h1>
             </div>
             <div className="flex justify-between">
-              <div className="w-130 h-[120vh] ml-63 mt-[-4vh]">
+              <div className="w-130 h-[120vh] ml-63 mt-[-4vh] overflow-hidden">
                 <img src="./images/lucia-dance.jpg" className="object-cover w-full h-full object-[60%_center] lucia-pic" alt="" />
               </div>
-              <div className="size-170 mt-[-16vh]">
+              <div className="size-170 mt-[-16vh] overflow-hidden">
                 <img src="./images/lucia-gun.jpg"className="object-cover w-full h-full object-[0%_center] lucia-pic" alt="" />
               </div>
-              <div className="size-120 absolute top-[163vh] right-50">
+              <div className="size-120 absolute top-[163vh] right-50 overflow-hidden">
                 <img src="./images/lucia-bike.jpg" className="object-cover w-full h-full object-[12%_center] lucia-pic" alt="" />
               </div>
             </div>

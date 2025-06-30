@@ -8,6 +8,7 @@ import { SecondPage } from './components/SecondPage';
 import { ThirdPage } from './components/ThirdPage';
 import { FourthPage } from './components/FourthPage';
 import { FifthPage } from './components/FifthPage';
+import { useGSAP } from '@gsap/react';
 
 gsap.registerPlugin(ScrollTrigger,ScrollSmoother,CustomEase);
 
@@ -60,6 +61,48 @@ export const App = () => {
 
 
 
+  // const col = "linear-gradient(to right, #111117, #16141f, #1b1828)"
+
+  // useGSAP(() => {
+  //   // Create background color transitions
+  //   const tl = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: "#smooth-wrapper",
+  //       start: "top top",
+  //       end: "bottom bottom",
+  //       // scrub: true,
+  //     }
+  //   });
+
+  //   // Define color transitions for each page
+  //   tl.to("#smooth-wrapper", {
+  //     backgroundColor: "#ffffff", // gray-800 for FirstPage
+  //     duration: 1,
+  //     ease: "none"
+  //   })
+  //   .to("#smooth-wrapper", {
+  //     backgroundColor: "#7c2d12", // orange-800 for SecondPage
+  //     duration: 1,
+  //     ease: "none"
+  //   })
+  //   .to("#smooth-wrapper", {
+  //     backgroundColor: "#581c87", // purple-800 for ThirdPage
+  //     duration: 1,
+  //     ease: "none"
+  //   })
+  //   .to("#smooth-wrapper", {
+  //     backgroundColor: "#1e40af", // blue-700 for FourthPage
+  //     duration: 1,
+  //     ease: "none"
+  //   })
+  //   .to("#smooth-wrapper", {
+  //     backgroundColor: col, // red-600 for FifthPage
+  //     duration: 1,
+  //     ease: "none"
+  //   });
+
+  // },[]);
+
 
 
 
@@ -67,14 +110,12 @@ export const App = () => {
 
   return (
     <>
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <FirstPage/>
-          <SecondPage/>
-          <ThirdPage/>
-          <FourthPage/>
-          <FifthPage/>
-        </div>
+      <div id="smooth-wrapper" className='bg-white'>
+        <FirstPage/>
+        <SecondPage/>
+        <ThirdPage/>
+        <FourthPage/>
+        <FifthPage/>
       </div>
     </>
   )

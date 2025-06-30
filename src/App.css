@@ -1,0 +1,15 @@
+.clip-skew{
+  height: 115vh;
+  width: inherit;
+  /* background-color: aqua; */
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}
+
+#fade1{
+  mask-image: linear-gradient(to bottom, transparent 0%, black 30%);
+      -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%);
+      mask-size: 100% 100%;
+      mask-repeat: no-repeat;
+      -webkit-mask-size: 100% 100%;
+      -webkit-mask-repeat: no-repeat;
+}
