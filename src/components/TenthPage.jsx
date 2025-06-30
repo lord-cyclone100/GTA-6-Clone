@@ -130,8 +130,8 @@ export const TenthPage = () =>{
         <img src="./images/brian02.webp" alt="" id="fade-brian" className="absolute top-0 z-2"/>
         <div id="brian-text" className="absolute flex flex-col gap-8 ml-44 top-[6%] z-8">
           <h1 className="font-gta3 text-7xl text-[#fff9cb] w-1/5">BRIAN HEDER</h1>
-          <h3 className="font-gta2 text-[#91dfec] text-4xl w-1/4">Nothing better than a Mudslide at sunset.</h3>
-          <p className="font-gta2 text-white text-2xl w-1/4">
+          <h3 className="font-gta2 text-[#91dfec] text-4xl w-[20vw]">Nothing better than a Mudslide at sunset.</h3>
+          <p className="font-gta2 text-white text-2xl w-[26vw]">
             Brian's a classic drug runner from the golden age of smuggling in the Keys. Still moving product through his boat yard with his third wife, Lori, Brian's been around long enough to let others do his dirty work.
           </p>
         </div>
@@ -160,7 +160,7 @@ export const TenthPage = () =>{
           </div>
         </div>
       </div>
-      <div id="hey-brian" className="relative h-[280vh] w-full bg-gradient-to-tr from-[#28375c] to-[#274a6e] overflow-x-hidden">
+      <div id="hey-brian" className="relative h-[290vh] w-full bg-gradient-to-tr from-[#28375c] to-[#274a6e] overflow-x-hidden">
         
         <div className="w-110 h-[120vh] bg-lime-400 absolute top-10 left-[20%]">
           <img src="./images/brian-stand.jpg" className="object-cover w-full h-full object-[58%_center]" alt="" />
@@ -174,7 +174,7 @@ export const TenthPage = () =>{
             <h3 className="font-gta2 text-[#91dfec] text-4xl w-[20vw]">
               Looks like a Leonida beach bum — moves like a great white shark.
             </h3>
-            <p className="font-gta2 text-white text-2xl w-[28vw]">
+            <p className="font-gta2 text-white text-2xl w-[26vw]">
               Brian’s letting Jason live rent-free at one of his properties — so long as he helps with local shakedowns, and stops by for Lori’s sangria once in a while.
             </p>
           </div>
@@ -190,7 +190,7 @@ export const TenthPage = () =>{
           </div>
         </div> */}
         {/* <div className="absolute transform left-1/2 top-400 h-dvh bg-amber-300"> */}
-          <img id="kalaga" src="./images/kalaga-postcard.svg" className="h-[98vh] absolute top-300 left-1/2 transform -translate-x-1/2" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} alt="" />
+          <img id="kalaga" src="./images/kalaga-postcard.svg" className="h-[98vh] absolute top-320 left-1/2 transform -translate-x-1/2" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} alt="" />
         {/* </div> */}
       </div>
     </>

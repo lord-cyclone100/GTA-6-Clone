@@ -128,14 +128,14 @@ export const EighthPage = () => {
 
   return(
     <>
-      <div id="hola" className="w-full h-[408vh] relative bg-emerald-900">
+      <div id="hola-people" className="w-full h-[408vh] relative bg-emerald-900">
         <img src="./images/dimezbg.webp" alt="" id="fade-dimez" className="absolute z-2" />
         <div id="overlay2" className="absolute w-[inherit] h-[138vh] bg-gradient-to-r from-[#404560]  to-transparent top-0 opacity-50 z-4"></div>
         {/* <div id="overlay6" className="absolute w-[inherit] h-[138vh] bg-gradient-to-b from-transparent  to-[#1a243c] top-0 opacity-50 z-3"></div> */}
         <img src="./images/dimez02.webp" alt="" id="fade-dimez" className="absolute top-0 z-2"/>
         <div id="dimez-text" className="absolute flex flex-col gap-8 ml-44 top-[6%] z-8">
           <h1 className="font-gta3 text-7xl text-[#fff9cb] w-1/5">REAL DIMEZ</h1>
-          <h3 className="font-gta2 text-[#91dfec] text-4xl w-1/4">Viral videos. Viral hooks.</h3>
+          <h3 className="font-gta2 text-[#ffff7e] text-4xl w-1/4">Viral videos. Viral hooks.</h3>
           <p className="font-gta2 text-white text-2xl w-1/4">
             Bae-Luxe and Roxy aka Real Dimez have been friends since high school — girls with the savvy to turn their time shaking down local dealers into cold, hard cash via spicy rap tracks and a relentless social media presence.
           </p>
@@ -152,7 +152,7 @@ export const EighthPage = () => {
               <div id="dimez-vid" className="size-181 bg-neutral-600 flex gap-10">
                 <video src="./videos/dimez-output.mp4" ref={videoRef} muted playsInline></video>
                 <div id="cal-speech-bo" className="w-[30vw] h-140 overflow-hidd top-40 right-[-38vw] absolute">
-                  <h1 id="dimez-speech" className="font-gta3 text-[#fff9cb] text-7xl absolute bottom-[-65%]">"ALL MY DIMES IN THIS CLUB. MEET MY TWIN, MAKE IT A DUB.' IT."</h1>
+                  <h1 id="dimez-speech" className="font-gta3 text-[#fff9cb] text-7xl absolute bottom-[-65%]">"ALL MY DIMES IN THIS CLUB. MEET MY TWIN, MAKE IT A DUB."</h1>
                 </div>
               </div>
             </div>
@@ -175,11 +175,11 @@ export const EighthPage = () => {
             
             <img src="./images/dimez-song.jpg" className="object-cover w-full h-full object-[16%_center]" alt="" />
           </div>
-          <div className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
-            <h3 className="font-gta2 text-[#91dfec] text-4xl w-[20vw]">
+          <div id="hola-people" className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
+            <h3 className="font-gta2 text-[#ffff7e] text-4xl w-[20vw]">
               One hit away from fame.
             </h3>
-            <p className="font-gta2 text-white text-2xl w-[28vw]">
+            <p className="font-gta2 text-white text-2xl w-[24vw]">
               An early hit single with local rapper DWNPLY took Real Dimez to new heights. Now, after five years and a whole lot of trouble, they’re signed to Only Raw Records, hoping lightning can strike twice.
             </p>
           </div>

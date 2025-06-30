@@ -128,15 +128,15 @@ export const SixthPage = () => {
 
   return(
     <>
-      <div id="hola" className="w-full h-[408vh] relative bg-emerald-900">
+      <div id="hola-people" className="w-full h-[408vh] relative bg-emerald-900">
         <img src="./images/ikebg.webp" alt="" id="fade-ike" className="absolute z-2" />
         <div id="overlay2" className="absolute w-[inherit] h-[138vh] bg-gradient-to-r from-[#404560]  to-transparent top-0 opacity-50 z-4"></div>
         {/* <div id="overlay6" className="absolute w-[inherit] h-[138vh] bg-gradient-to-b from-transparent  to-[#1a243c] top-0 opacity-50 z-3"></div> */}
         <img src="./images/ike02.webp" alt="" id="fad-ike" className="absolute top-0 z-2"/>
         <div id="ike-text" className="absolute flex flex-col gap-8 ml-44 top-[6%] z-8">
-          <h1 className="font-gta3 text-7xl text-[#fff9cb] w-1/5">BOOBIE IKE</h1>
-          <h3 className="font-gta2 text-[#91dfec] text-4xl w-1/4">It's all about heart — the Jack of Hearts.</h3>
-          <p className="font-gta2 text-white text-2xl w-1/4">
+          <h1 className="font-gta3 text-7xl text-[#fff9cb] w-[18vw]">BOOBIE IKE</h1>
+          <h3 className="font-gta2 text-[#ffff7e] text-4xl w-[20vw]">It's all about heart — the Jack of Hearts.</h3>
+          <p className="font-gta2 text-white text-2xl w-[25vw]">
             Boobie is a local Vice City legend — and acts like it. One of the few to transform his time in the streets into a legitimate empire spanning real estate, a strip club, and a recording studio — Boobie's all smiles until it's time to talk business.
           </p>
         </div>
@@ -175,11 +175,11 @@ export const SixthPage = () => {
             
             <img src="./images/ike-club.jpg" className="object-cover w-full h-full object-[16%_center]" alt="" />
           </div>
-          <div className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
-            <h3 className="font-gta2 text-[#91dfec] text-4xl w-[20vw]">
+          <div id="hola-people" className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
+            <h3 className="font-gta2 text-[#ffff7e] text-4xl w-[20vw]">
               Top quality cuts.
             </h3>
-            <p className="font-gta2 text-white text-2xl w-[28vw]">
+            <p className="font-gta2 text-white text-2xl w-[24vw]">
               Boobie might seem like he's just out for himself, but it's his partnership with the young aspiring music mogul Dre'Quan for Only Raw Records that he's most invested in — now they just need a hit.
             </p>
           </div>

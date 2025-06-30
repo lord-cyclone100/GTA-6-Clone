@@ -21,7 +21,22 @@
   --font-gta3: Gta3, "sans-serif";
 }
 
-::selection {
+body::selection {
   background: #ffb0c4;
   color: #36364e;
+}
+
+#hola::selection, #hey-cal::selection{
+  background: #91dfec;
+  color:#28375c
+}
+
+#hola-people::selection{
+  background: #ffff7e;
+  color: #28375c;
+}
+
+#hola-raul::selection{
+  background: #feec94;
+  color: #2c4134;
 }

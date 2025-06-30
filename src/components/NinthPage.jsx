@@ -128,14 +128,14 @@ export const NinthPage = () => {
 
   return(
     <>
-      <div id="hola" className="w-full h-[408vh] relative bg-emerald-900">
+      <div id="hola-raul" className="w-full h-[408vh] relative bg-emerald-900">
         <img src="./images/raulbg.webp" alt="" id="fade-raul" className="absolute z-2" />
         <div id="overlay2" className="absolute w-[inherit] h-[138vh] bg-gradient-to-l from-[#72b946] via-transparent to-transparent top-0 opacity-50 z-4"></div>
         {/* <div id="overlay6" className="absolute w-[inherit] h-[138vh] bg-gradient-to-b from-transparent  to-[#1a243c] top-0 opacity-50 z-3"></div> */}
         <img src="./images/raul02.webp" alt="" id="fade-raul" className="absolute top-0 z-2"/>
         <div id="raul-text" className="absolute flex flex-col gap-8 ml-[65%] top-[6%] z-8">
           <h1 className="font-gta3 text-7xl text-[#fff9cb] w-1/4">RAUL BAUTISTA</h1>
-          <h3 className="font-gta2 text-[#91dfec] text-4xl w-1/2">Experience counts.</h3>
+          <h3 className="font-gta2 text-[#ffed95] text-4xl w-1/2">Experience counts.</h3>
           <p className="font-gta2 text-white text-2xl w-[26vw]">
             Confidence, charm, and cunning — Raul’s a seasoned bank robber always on the hunt for talent ready to take the risks that bring the biggest rewards.
           </p>
@@ -175,11 +175,11 @@ export const NinthPage = () => {
             
             <img src="./images/raul-drive.jpg" className="object-cover w-full h-full object-[16%_center]" alt="" />
           </div>
-          <div className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute left-[19.5%]">
-            <h3 className="font-gta2 text-[#91dfec] text-4xl w-[20vw]">
+          <div id="hola-raul" className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute left-[19.5%]">
+            <h3 className="font-gta2 text-[#ffed95] text-4xl w-[20vw]">
               A professional adapts.
             </h3>
-            <p className="font-gta2 text-white text-2xl w-[28vw]">
+            <p className="font-gta2 text-white text-2xl w-[26vw]">
               Raul's recklessness raises the stakes with every score. Sooner or later, his crew will have to double down or pull their chips from the table.
             </p>
           </div>

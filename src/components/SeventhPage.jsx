@@ -128,15 +128,15 @@ export const SeventhPage = () => {
 
   return(
     <>
-      <div id="hola" className="w-full h-[408vh] relative bg-emerald-900">
+      <div id="hola-people" className="w-full h-[408vh] relative bg-emerald-900">
         <img src="./images/priestbg.webp" alt="" id="fade-priest" className="absolute z-2" />
         <div id="overlay2" className="absolute w-[inherit] h-[138vh] bg-gradient-to-r from-[#404560]  to-transparent top-0 opacity-50 z-4"></div>
         {/* <div id="overlay6" className="absolute w-[inherit] h-[138vh] bg-gradient-to-b from-transparent  to-[#1a243c] top-0 opacity-50 z-3"></div> */}
         <img src="./images/priest02.webp" alt="" id="fade-priest" className="absolute top-0 z-2"/>
         <div id="priest-text" className="absolute flex flex-col gap-8 ml-44 top-[6%] z-8">
           <h1 className="font-gta3 text-7xl text-[#fff9cb] w-1/5">DRE'QUAN PRIEST</h1>
-          <h3 className="font-gta2 text-[#91dfec] text-4xl w-1/4">Only Raw... Records</h3>
-          <p className="font-gta2 text-white text-2xl w-1/4">
+          <h3 className="font-gta2 text-[#ffff7e] text-4xl w-1/4">Only Raw... Records</h3>
+          <p className="font-gta2 text-white text-2xl w-1/3">
             Dre'Quan was always more of a hustler than a gangster. Even when he was dealing on the streets to make ends meet, breaking into music was the goal.
           </p>
         </div>
@@ -175,11 +175,11 @@ export const SeventhPage = () => {
             
             <img src="./images/priest-dj.jpg" className="object-cover w-full h-full object-[16%_center]" alt="" />
           </div>
-          <div className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
-            <h3 className="font-gta2 text-[#91dfec] text-4xl w-[20vw]">
+          <div id="hola-people" className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
+            <h3 className="font-gta2 text-[#ffff7e] text-4xl w-[16vw]">
               You're with the label now.
             </h3>
-            <p className="font-gta2 text-white text-2xl w-[28vw]">
+            <p className="font-gta2 text-white text-2xl w-[26vw]">
               Now that he's signed the Real Dimez, Dre'Quan's days of booking acts into Boobie's strip club might be numbered as he sets his sights on the Vice City scene.
             </p>
           </div>
