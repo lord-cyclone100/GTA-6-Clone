@@ -5,7 +5,7 @@
   clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
 }
 
-#fade1, #fade2, #fade3{
+#fade1, #fade2, #fade3, #fade4{
   mask-image: linear-gradient(to bottom, transparent 0%, black 30%);
       -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%);
       mask-size: 100% 100%;

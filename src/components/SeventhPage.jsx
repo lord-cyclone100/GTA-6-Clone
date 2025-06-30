@@ -115,7 +115,7 @@ export const SeventhPage = () => {
     })
 
     tl3.to('#hey-priest',{
-      backgroundImage:"linear-gradient(to right, ##2c4038, #4e5b4c)",
+      backgroundImage:"linear-gradient(to right, #2c4038, #4e5b4c)",
       duration:2,
       ease:'none'
     })
