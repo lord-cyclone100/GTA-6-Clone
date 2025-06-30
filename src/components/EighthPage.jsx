@@ -158,7 +158,7 @@ export const EighthPage = () => {
             </div>
             <div className="flex flex-col gap-20 items-center">
               <div className="size-181 bg-amber-300 mt-[-8vh]">
-                <img src="./images/dimez-look.jpg" alt="" className="object-cover w-full h-full object-[20%_center]" />
+                <img src="./images/dimez-look.jpg" alt="" className="object-cover w-full h-full object-[60%_center]" />
               </div>
               
             </div>
@@ -168,12 +168,12 @@ export const EighthPage = () => {
       <div id="hey-dimez" className="relative h-[280vh] w-full bg-gradient-to-tr from-[#323953] to-[#525973] overflow-x-hidden">
         
         <div className="w-110 h-[120vh] bg-lime-400 absolute top-10 left-[20%]">
-          <img src="./images/dimez-car-dance.jpg" className="object-cover w-full h-full object-[29%_center]" alt="" />
+          <img src="./images/dimez-car-dance.jpg" className="object-cover w-full h-full object-[42%_center]" alt="" />
         </div>
         <div className="flex flex-col gap-40">
           <div className="size-110 bg-lime-700 absolute right-[18.5%] top-70">
             
-            <img src="./images/dimez-song.jpg" className="object-cover w-full h-full object-[16%_center]" alt="" />
+            <img src="./images/dimez-song.jpg" className="object-cover w-full h-full object-[50%_center]" alt="" />
           </div>
           <div id="hola-people" className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
             <h3 className="font-gta2 text-[#ffff7e] text-4xl w-[20vw]">

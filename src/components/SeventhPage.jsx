@@ -147,7 +147,7 @@ export const SeventhPage = () => {
           <div className="flex justify-between absolute z-7 top-240 w-full">
             <div className="flex flex-col gap-5">
               <div className="size-120 bg-purple-300 ml-61 mt-12">
-                <img src="./images/priest-club.jpg" alt="" className="object-cover w-full h-full object-[50%_center]" />
+                <img src="./images/priest-club.jpg" alt="" className="object-cover w-full h-full object-[68%_center]" />
               </div>
               <div id="priest-vid" className="size-181 bg-neutral-600 flex gap-10">
                 <video src="./videos/priest-output.mp4" ref={videoRef} muted playsInline></video>
@@ -158,7 +158,7 @@ export const SeventhPage = () => {
             </div>
             <div className="flex flex-col gap-20 items-center">
               <div className="size-181 bg-amber-300 mt-[-8vh]">
-                <img src="./images/priest-coat.jpg" alt="" className="object-cover w-full h-full object-[20%_center]" />
+                <img src="./images/priest-coat.jpg" alt="" className="object-cover w-full h-full object-[100%_center]" />
               </div>
               
             </div>
@@ -168,12 +168,12 @@ export const SeventhPage = () => {
       <div id="hey-priest" className="relative h-[280vh] w-full bg-gradient-to-tr from-[#323953] to-[#525973] overflow-x-hidden">
         
         <div className="w-110 h-[120vh] bg-lime-400 absolute top-10 left-[20%]">
-          <img src="./images/priest-dance.jpg" className="object-cover w-full h-full object-[29%_center]" alt="" />
+          <img src="./images/priest-dance.jpg" className="object-cover w-full h-full object-[15%_center]" alt="" />
         </div>
         <div className="flex flex-col gap-40">
           <div className="size-110 bg-lime-700 absolute right-[18.5%] top-70">
             
-            <img src="./images/priest-dj.jpg" className="object-cover w-full h-full object-[16%_center]" alt="" />
+            <img src="./images/priest-dj.jpg" className="object-cover w-full h-full object-[44%_center]" alt="" />
           </div>
           <div id="hola-people" className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
             <h3 className="font-gta2 text-[#ffff7e] text-4xl w-[16vw]">

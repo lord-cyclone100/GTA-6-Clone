@@ -142,7 +142,7 @@ export const TenthPage = () =>{
           <div className="flex justify-between absolute z-7 top-240 w-full">
             <div className="flex flex-col gap-5">
               <div className="size-120 bg-purple-300 ml-61 mt-12">
-                <img src="./images/brian-box.jpg" alt="" className="object-cover w-full h-full object-[50%_center]" />
+                <img src="./images/brian-box.jpg" alt="" className="object-cover w-full h-full object-[38%_center]" />
               </div>
               <div id="brian-vid" className="size-181 bg-neutral-600 flex gap-10">
                 <video src="./videos/brian-output.mp4" ref={videoRef} muted playsInline></video>
@@ -153,7 +153,7 @@ export const TenthPage = () =>{
             </div>
             <div className="flex flex-col gap-20 items-center">
               <div className="size-181 bg-amber-300 mt-[-8vh]">
-                <img src="./images/brian-car.jpg" alt="" className="object-cover w-full h-full object-[100%_center]" />
+                <img src="./images/brian-car.jpg" alt="" className="object-cover w-full h-full object-[50%_center]" />
               </div>
               
             </div>
@@ -163,12 +163,12 @@ export const TenthPage = () =>{
       <div id="hey-brian" className="relative h-[290vh] w-full bg-gradient-to-tr from-[#28375c] to-[#274a6e] overflow-x-hidden">
         
         <div className="w-110 h-[120vh] bg-lime-400 absolute top-10 left-[20%]">
-          <img src="./images/brian-stand.jpg" className="object-cover w-full h-full object-[58%_center]" alt="" />
+          <img src="./images/brian-stand.jpg" className="object-cover w-full h-full object-[64%_center]" alt="" />
         </div>
         <div className="flex flex-col gap-40">
           <div className="size-110 bg-lime-700 absolute right-[18.5%] top-70">
             
-            <img src="./images/brian-chat.jpg" className="object-cover w-full h-full object-[16%_center]" alt="" />
+            <img src="./images/brian-chat.jpg" className="object-cover w-full h-full object-[68%_center]" alt="" />
           </div>
           <div className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
             <h3 className="font-gta2 text-[#91dfec] text-4xl w-[20vw]">
