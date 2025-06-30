@@ -41,7 +41,7 @@ export const FifthPage = () =>{
   useGSAP(()=>{
     const tl = gsap.timeline({
       scrollTrigger:{
-        trigger:'#fade',
+        trigger:'#fade-cal',
         start:'top top',
         end:'bottom top',
         scrub:true
@@ -114,7 +114,7 @@ export const FifthPage = () =>{
       }
     })
 
-    tl3.to('#hey',{
+    tl3.to('#hey-cal',{
       backgroundImage:"linear-gradient(to right, #694775, #876fb4)",
       duration:2,
       ease:'none'
@@ -124,10 +124,10 @@ export const FifthPage = () =>{
   return(
     <>
       <div id="hola" className="w-full h-[408vh] relative bg-emerald-900">
-        <img src="./images/carlbg.webp" alt="" id="fade" className="absolute z-2" />
+        <img src="./images/carlbg.webp" alt="" id="fade-cal" className="absolute z-2" />
         <div id="overlay6" className="absolute w-[inherit] h-[138vh] bg-gradient-to-r from-[#131845]  to-transparent top-0 opacity-50 z-4"></div>
         {/* <div id="overlay6" className="absolute w-[inherit] h-[138vh] bg-gradient-to-b from-transparent  to-[#1a243c] top-0 opacity-50 z-3"></div> */}
-        <img src="./images/carl02.webp" alt="" id="fade" className="absolute top-0 z-2"/>
+        <img src="./images/carl02.webp" alt="" id="fade-cal" className="absolute top-0 z-2"/>
         <div id="cal-text" className="absolute flex flex-col gap-8 ml-44 top-[6%] z-8">
           <h1 className="font-gta3 text-7xl text-[#fff9cb] w-1/5">CAL HAMPTON</h1>
           <h3 className="font-gta2 text-[#91dfec] text-4xl w-1/4">What if everything on the internet was true?</h3>
@@ -160,7 +160,7 @@ export const FifthPage = () =>{
           </div>
         </div>
       </div>
-      <div id="hey" className="relative h-[350vh] w-full bg-gradient-to-tr from-[#28375c] to-[#274a6e] overflow-x-hidden">
+      <div id="hey-cal" className="relative h-[330vh] w-full bg-gradient-to-tr from-[#28375c] to-[#274a6e] overflow-x-hidden">
         
         <div className="w-110 h-[120vh] bg-lime-400 absolute top-10 left-[20%]">
           <img src="./images/cal-bar.jpg" className="object-cover w-full h-full object-[58%_center]" alt="" />
