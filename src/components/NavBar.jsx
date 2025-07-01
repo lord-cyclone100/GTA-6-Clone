@@ -107,7 +107,7 @@ export const NavBar = () => {
         </div>
           
         </div>
-        <a href="#home"><img src="./images/six-menu.svg" className="h-6 cursor-pointer z-52" alt="" /></a>
+        <a href="#home-page"><img src="./images/six-menu.svg" className="h-6 cursor-pointer z-52" alt="" /></a>
         <div className="flex gap-8 cursor-pointer z-60">
           <div className={`${active ? 'flex':'hidden'} flex-col gap-2 items-center justify-center`} onClick={handleSetActive}>
             <div className="w-7 h-[0.8vh] bg-white rotate-45 origin-center absolute"></div>

@@ -13,7 +13,7 @@ export const FirstPage = () =>{
     })
     const tl = gsap.timeline({
       scrollTrigger:{
-        trigger:'#parent-container',
+        trigger:'#home-page',
         start:'top top',
         end:'bottom top',
         scrub:1.5,
@@ -88,7 +88,7 @@ export const FirstPage = () =>{
   return(
     <>
       {/* <NavBar/> */}
-      <div id="parent-container" className="h-dvh w-full relative flex items-center justify-center overflow-hidden">
+      <div id="home-page" className="h-dvh w-full relative flex items-center justify-center overflow-hidden">
         <div id="overlay" className="h-[inherit] w-[inherit] absolute bg-black z-4"></div>
         <div id="hero-section" className="h-[inherit] w-[inherit] scale-130" >
           <div id="hero-container" className="absolute z-2">
