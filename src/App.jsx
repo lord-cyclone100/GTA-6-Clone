@@ -120,7 +120,7 @@ export const App = () => {
 
   return (
     <>
-      {/* <div id="smooth-wrapper" className='bg-white'> */}
+      <div id="smooth-wrapper" className='bg-white overflow-y-hidden cursor-auto'>
         <NavBar/>
         <FirstPage/>
         <SecondPage/>
@@ -134,7 +134,7 @@ export const App = () => {
         <TenthPage/>
         <EleventhPage/>
         <TwelvethPage/>
-      {/* </div> */}
+      </div>
     </>
   )
 }

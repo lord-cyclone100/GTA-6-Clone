@@ -190,7 +190,7 @@ export const FifthPage = () =>{
           </div>
         </div>
         {/* <div className="absolute transform left-1/2 top-400 h-dvh bg-amber-300"> */}
-          <img id="vice-city" src="./images/vice-city-postcard.svg" className="h-[98vh] absolute top-400 left-1/2 transform -translate-x-1/2" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} alt="" />
+          <img id="vice-city" src="./images/vice-city-postcard.svg" className="h-[98vh] absolute top-400 left-1/2 transform -translate-x-1/2 z-70" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} alt="" />
         {/* </div> */}
       </div>
     </>

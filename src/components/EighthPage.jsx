@@ -195,7 +195,7 @@ export const EighthPage = () => {
           </div>
         </div> */}
         {/* <div className="absolute transform left-1/2 top-400 h-dvh bg-amber-300"> */}
-          <img id="port-gellhorn" src="./images/port-gellhorn-postcard.svg" className="h-[98vh] absolute top-300 left-1/2 transform -translate-x-1/2" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} alt="" />
+          <img id="port-gellhorn" src="./images/port-gellhorn-postcard.svg" className="h-[98vh] absolute top-300 left-1/2 transform -translate-x-1/2 z-70" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} alt="" />
         {/* </div> */}
       </div>
     </>

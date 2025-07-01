@@ -190,7 +190,7 @@ export const TenthPage = () =>{
           </div>
         </div> */}
         {/* <div className="absolute transform left-1/2 top-400 h-dvh bg-amber-300"> */}
-          <img id="kalaga" src="./images/kalaga-postcard.svg" className="h-[98vh] absolute top-320 left-1/2 transform -translate-x-1/2" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} alt="" />
+          <img id="kalaga" src="./images/kalaga-postcard.svg" className="h-[98vh] absolute top-320 left-1/2 transform -translate-x-1/2 z-70" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} alt="" />
         {/* </div> */}
       </div>
     </>

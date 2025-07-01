@@ -2,26 +2,42 @@ import gsap from "gsap";
 import { useRef, useState } from "react";
 import { navbarNames, navbarPictures } from "../../constants/constants";
 import { port } from "../App";
+import { useGSAP } from "@gsap/react";
 export const NavBar = () => {
   const[active, setIsActive] = useState(false);
-  const[state, setState] = useState(true);
+  // const[state, setState] = useState(true);
   const navImgRef = useRef();
 
   const getName = (e) =>{
     e.target.style.color='#fff9cb';
     const idx = e.target.id;
-    setState(!state);
-    console.log(state);
+    // setState(!state);
+    // console.log(state);
     // console.log(idx);
     // console.log(navImgRef.current.className);
     navImgRef.current.src = `http://localhost:${port}${navbarPictures[idx]}`
-    navImgRef.current.className = "object-cover w-full h-full object-[20%_center]"
+    navImgRef.current.className = "object-cover w-full h-full"
+
+    // gsap.killTweensOf(navImgRef.current);
+
+    gsap.fromTo(navImgRef.current, {
+      objectPosition: "20% center",
+    },{
+      objectPosition:'80% center',
+      duration:20,
+      ease:'none'
+    })
   }
 
   const removeName = (e) =>{
     e.target.style.color='#fff';
     navImgRef.current.src = `http://localhost:${port}/images/nav-logo.svg`
     navImgRef.current.className = "object-cover h-[24vh]"
+    gsap.to(navImgRef.current, {
+      objectPosition: "20% center",
+      duration: 20,
+      ease: 'none'
+    })
   }
 
   const handleSetActive = () => {
@@ -61,21 +77,35 @@ export const NavBar = () => {
       // })
     }
   }
+  // useGSAP(()=>{
+  //   gsap.fromTo(navImgRef.current,{
+  //     objectPosition:"20% center",
+  //     duration:0,
+  //     ease:'none'
+  //   },{
+  //     objectPosition:"80% center",
+  //     duration:10,
+  //     ease:'none'
+  //   })
+  // },[state])
   return(
     <>
       <nav className="w-full h-40 top-0 z-50 fixed flex items-center justify-between px-20">
-        <div id="nav-pic" className="h-[100vh] w-full bg-gradient-to-b from-[#296074] via-[#585e6f] to-[#4f3f4e] absolute top-0 left-[0%] z-54 flex items-center justify-center opacity-0">
+        <div id="nav-pic" className={`h-[100vh] w-full bg-gradient-to-b from-[#296074] via-[#585e6f] to-[#4f3f4e] absolute top-0 left-[0%] z-54 flex items-center justify-center opacity-0 ${!active ? 'pointer-events-none' : ''}`}>
           <div className="w-1/2 flex h-[inherit] items-center justify-center">
             <img src="./images/nav-logo.svg" ref={navImgRef} id="nav-img" className="object-cover h-[24vh]" alt="" />
           </div>
           <div className="w-1/2"></div>
         </div>
         <div id="nav-container" className="h-[100vh] w-1/2 bg-gradient-to-tr from-[#111117] via-[#16141f] to-[#1b1828] absolute top-0 right-[-50%] z-55 flex flex-col text-white font-gta3 justify-center gap-2 text-6xl pl-16">
+        <div className="w-[52%]">
           {
             navbarNames.map((charName,idx)=>(
               <span><h1 key={charName} id={idx} className="cursor-pointer" onMouseEnter={getName} onMouseLeave={removeName}>{charName}</h1></span>
             ))
           }
+        </div>
+          
         </div>
         <img src="./images/six-menu.svg" className="h-6 cursor-pointer z-52" alt="" />
         <div className="flex gap-8 cursor-pointer z-60">
