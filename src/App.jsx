@@ -15,6 +15,7 @@ import { EighthPage } from './components/EighthPage';
 import { NinthPage } from './components/NinthPage';
 import { TenthPage } from './components/TenthPage';
 import { EleventhPage } from './components/EleventhPage';
+import { TwelvethPage } from './components/TwelvethPage';
 
 gsap.registerPlugin(ScrollTrigger,ScrollSmoother,CustomEase);
 
@@ -128,6 +129,7 @@ export const App = () => {
         <NinthPage/>
         <TenthPage/>
         <EleventhPage/>
+        <TwelvethPage/>
       </div>
     </>
   )
