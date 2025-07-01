@@ -69,7 +69,7 @@ export const EleventhPage = () =>{
     <>
       <div id="outro-video-box" className="h-dvh w-full bg-lime-400 relative overflow-hidden">
         <video id="jason-vid" ref={videoRef} src="./videos/vid3outro-output.mp4" muted playsInline className="w-full h-full object-cover"></video>
-        <div id="outro-box" className="size-[inherit] absolute bg-gradient-to-tr from-[#111117] via-[#16141f] to-[#1b1828] top-0 flex items-center justify-center flex-col gap-10 opacity-0 scale-[120%]">
+        <div id="outro-box" className="size-[inherit] absolute bg-gradient-to-b from-[#111117] via-[#16141f] to-[#1b1828] top-0 flex items-center justify-center flex-col gap-10 opacity-0 scale-[120%]">
           <div>
             <img src="./images/brand-logo.png" alt="" className="h-32" />
           </div>
