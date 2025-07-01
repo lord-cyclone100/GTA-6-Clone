@@ -1,6 +1,5 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
-import { CustomEase } from "gsap/all"
 import { useRef } from "react"
 
 export const SecondPage = () => {
@@ -79,7 +78,7 @@ export const SecondPage = () => {
       opacity:'90%',
       duration:30,
       // delay:2
-      ease:'power2.inOut'
+      ease:'none'
     },40)
 
     .fromTo('#jason-quote',{

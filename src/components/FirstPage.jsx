@@ -1,6 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap"
 import { useEffect, useState } from "react";
+import { NavBar } from "./NavBar";
 
 export const FirstPage = () =>{
 
@@ -8,7 +9,7 @@ export const FirstPage = () =>{
     gsap.to('#overlay',{
       opacity:0,
       duration:1.5,
-      ease:'power3.out',
+      ease:'none',
     })
     const tl = gsap.timeline({
       scrollTrigger:{
@@ -36,7 +37,7 @@ export const FirstPage = () =>{
     .to('#brand-background',{
       opacity:0,
       duration:1,
-      ease:'power3.inOut'
+      ease:'none'
     },13.5)
     .to("#brand-logo",{
       opacity:1,
@@ -50,7 +51,7 @@ export const FirstPage = () =>{
       scale:0.1,
       duration:2,
       top:'-56vh',
-      ease:'circ'
+      ease:'none'
     },14.5)
     .fromTo('#parent-text',{
       y:20
@@ -86,6 +87,7 @@ export const FirstPage = () =>{
  
   return(
     <>
+      {/* <NavBar/> */}
       <div id="parent-container" className="h-dvh w-full relative flex items-center justify-center overflow-hidden">
         <div id="overlay" className="h-[inherit] w-[inherit] absolute bg-black z-4"></div>
         <div id="hero-section" className="h-[inherit] w-[inherit] scale-130" >

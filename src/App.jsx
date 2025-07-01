@@ -16,8 +16,11 @@ import { NinthPage } from './components/NinthPage';
 import { TenthPage } from './components/TenthPage';
 import { EleventhPage } from './components/EleventhPage';
 import { TwelvethPage } from './components/TwelvethPage';
+import { NavBar } from './components/NavBar';
 
 gsap.registerPlugin(ScrollTrigger,ScrollSmoother,CustomEase);
+
+export const port = window.location.port;
 
 export const App = () => {
   // useEffect(() => {
@@ -117,7 +120,8 @@ export const App = () => {
 
   return (
     <>
-      <div id="smooth-wrapper" className='bg-white'>
+      {/* <div id="smooth-wrapper" className='bg-white'> */}
+        <NavBar/>
         <FirstPage/>
         <SecondPage/>
         <ThirdPage/>
@@ -130,7 +134,7 @@ export const App = () => {
         <TenthPage/>
         <EleventhPage/>
         <TwelvethPage/>
-      </div>
+      {/* </div> */}
     </>
   )
 }
