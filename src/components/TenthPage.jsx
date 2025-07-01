@@ -123,7 +123,7 @@ export const TenthPage = () =>{
   },[])
   return(
     <>
-      <div id="hola" className="w-full h-[408vh] relative bg-emerald-900">
+      <div id="brian-page" className="w-full h-[408vh] relative bg-emerald-900">
         <img src="./images/brianbg.webp" alt="" id="fade-brian" className="absolute z-2" />
         <div id="overlay6" className="absolute w-[inherit] h-[138vh] bg-gradient-to-r from-[#131845]  to-transparent top-0 opacity-50 z-4"></div>
         {/* <div id="overlay6" className="absolute w-[inherit] h-[138vh] bg-gradient-to-b from-transparent  to-[#1a243c] top-0 opacity-50 z-3"></div> */}

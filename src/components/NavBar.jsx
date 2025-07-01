@@ -100,14 +100,14 @@ export const NavBar = () => {
         <div id="nav-container" className="h-[100vh] w-1/2 bg-gradient-to-tr from-[#111117] via-[#16141f] to-[#1b1828] absolute top-0 right-[-50%] z-55 flex flex-col text-white font-gta3 justify-center gap-2 text-6xl pl-16">
         <div className="w-[52%]">
           {
-            navbarNames.map((charName,idx)=>(
-              <span><h1 key={charName} id={idx} className="cursor-pointer" onMouseEnter={getName} onMouseLeave={removeName}>{charName}</h1></span>
-            ))
+            navbarNames.map(({name,link,id})=>{
+              return <a href={`#${link}`} key={name}><h1 id={id} className="cursor-pointer" onMouseEnter={getName} onMouseLeave={removeName}>{name}</h1></a>
+            })
           }
         </div>
           
         </div>
-        <img src="./images/six-menu.svg" className="h-6 cursor-pointer z-52" alt="" />
+        <a href="#home"><img src="./images/six-menu.svg" className="h-6 cursor-pointer z-52" alt="" /></a>
         <div className="flex gap-8 cursor-pointer z-60">
           <div className={`${active ? 'flex':'hidden'} flex-col gap-2 items-center justify-center`} onClick={handleSetActive}>
             <div className="w-7 h-[0.8vh] bg-white rotate-45 origin-center absolute"></div>

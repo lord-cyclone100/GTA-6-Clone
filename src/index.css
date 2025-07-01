@@ -26,17 +26,17 @@ body::selection {
   color: #36364e;
 }
 
-#hola::selection, #hey-cal::selection{
+#hola::selection, #cal-page::selection, #brian-page::selection{
   background: #91dfec;
   color:#28375c
 }
 
-#hola-people::selection{
+#ike-page::selection, #priest-page::selection, #dimez-page::selection{
   background: #ffff7e;
   color: #28375c;
 }
 
-#hola-raul::selection{
+#raul-page::selection{
   background: #feec94;
   color: #2c4134;
 }

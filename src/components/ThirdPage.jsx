@@ -7,7 +7,7 @@ export const ThirdPage = () =>{
   useGSAP(()=>{
     const tl = gsap.timeline({
       scrollTrigger:{
-        trigger:'#third-page-container',
+        trigger:'#lucia-page',
         start:'top top',
         end:'bottom 80%',
         scrub:1,
@@ -106,7 +106,7 @@ videoTl.to('.lucia-pic',{
 
   return(
     <>
-      <div id="third-page-container" className="min-h-screen w-full bg-sky-400 relative overflow-hidden">
+      <div id="lucia-page" className="min-h-screen w-full bg-sky-400 relative overflow-hidden">
         <div id="lucia-hero" className="block max-w-[100%] h-auto">
           <img src="./images/lucia1.webp" alt="" />
         </div>

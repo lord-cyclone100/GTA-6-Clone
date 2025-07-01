@@ -128,7 +128,7 @@ export const EighthPage = () => {
 
   return(
     <>
-      <div id="hola-people" className="w-full h-[408vh] relative bg-emerald-900">
+      <div id="dimez-page" className="w-full h-[408vh] relative bg-emerald-900">
         <img src="./images/dimezbg.webp" alt="" id="fade-dimez" className="absolute z-2" />
         <div id="overlay2" className="absolute w-[inherit] h-[138vh] bg-gradient-to-r from-[#404560]  to-transparent top-0 opacity-50 z-4"></div>
         {/* <div id="overlay6" className="absolute w-[inherit] h-[138vh] bg-gradient-to-b from-transparent  to-[#1a243c] top-0 opacity-50 z-3"></div> */}
@@ -175,7 +175,7 @@ export const EighthPage = () => {
             
             <img src="./images/dimez-song.jpg" className="object-cover w-full h-full object-[50%_center]" alt="" />
           </div>
-          <div id="hola-people" className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
+          <div id="dimez-page" className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute">
             <h3 className="font-gta2 text-[#ffff7e] text-4xl w-[20vw]">
               One hit away from fame.
             </h3>

@@ -8,7 +8,7 @@ export const SecondPage = () => {
   useGSAP(()=>{
     const tl = gsap.timeline({
       scrollTrigger:{
-        trigger:'#second-page-container',
+        trigger:'#jason-page',
         start:'top top',
         end:'bottom 80%',
         scrub:1,
@@ -111,7 +111,7 @@ export const SecondPage = () => {
   },[])
   return(
     <>
-      <div id="second-page-container" className="w-full relative overflow-hidden min-h-screen">
+      <div id="jason-page" className="w-full relative overflow-hidden min-h-screen">
         <div id="jason-hero" className="z-1 block max-w-[100%] h-auto absolute top-0">
           <img src="./images/jason1.webp" alt="" />
         </div>

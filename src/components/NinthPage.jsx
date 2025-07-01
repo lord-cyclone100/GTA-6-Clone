@@ -128,7 +128,7 @@ export const NinthPage = () => {
 
   return(
     <>
-      <div id="hola-raul" className="w-full h-[408vh] relative bg-emerald-900">
+      <div id="raul-page" className="w-full h-[408vh] relative bg-emerald-900">
         <img src="./images/raulbg.webp" alt="" id="fade-raul" className="absolute z-2" />
         <div id="overlay2" className="absolute w-[inherit] h-[138vh] bg-gradient-to-l from-[#72b946] via-transparent to-transparent top-0 opacity-50 z-4"></div>
         {/* <div id="overlay6" className="absolute w-[inherit] h-[138vh] bg-gradient-to-b from-transparent  to-[#1a243c] top-0 opacity-50 z-3"></div> */}
@@ -175,7 +175,7 @@ export const NinthPage = () => {
             
             <img src="./images/raul-drive.jpg" className="object-cover w-full h-full object-[60%_center]" alt="" />
           </div>
-          <div id="hola-raul" className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute left-[19.5%]">
+          <div id="raul-page" className="w-1/2 flex flex-col gap-6 -right-30 top-200 absolute left-[19.5%]">
             <h3 className="font-gta2 text-[#ffed95] text-4xl w-[20vw]">
               A professional adapts.
             </h3>
