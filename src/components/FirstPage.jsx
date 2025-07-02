@@ -70,7 +70,7 @@ export const FirstPage = () =>{
     },18.5)
     .to('#para-text',{
       opacity:1,
-      scale:0.7,
+      scale:1,
       duration:5
     },23)
 
@@ -88,7 +88,7 @@ export const FirstPage = () =>{
   return(
     <>
       {/* <NavBar/> */}
-      <div id="home-page" className="h-dvh w-full relative flex items-center justify-center overflow-hidden">
+      <div id="home-page" className="h-dvh w-1/2 md:w-full relative flex items-center justify-center overflow-hidden">
         <div id="overlay" className="h-[inherit] w-[inherit] absolute bg-black z-4"></div>
         <div id="hero-section" className="h-[inherit] w-[inherit] scale-130" >
           <div id="hero-container" className="absolute z-2">
@@ -113,7 +113,7 @@ export const FirstPage = () =>{
               <img src="./images/xboxlogo.svg" alt="" className="h-6"  />
             </div>
           </div>
-          <div id="para-text" className="flex justify-center flex-col gap-10 mx-50 bg-gradient-to-r from-[#b33467] via-[#f1576a] to-[#f78474] bg-clip-text text-transparent opacity-0 z-8">
+          <div id="para-text" className="flex justify-center flex-col gap-10 mx-50 bg-gradient-to-r from-[#b33467] via-[#f1576a] to-[#f78474] bg-clip-text text-transparent opacity-0 z-8 scale-130">
             <h1 className="font-gta2 text-6xl font-bold">Vice City, USA.</h1>
             <p className="font-gta2 text-4xl">
               Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the state of Leonida — forced to rely on each other more than ever if they want to make it out alive.
